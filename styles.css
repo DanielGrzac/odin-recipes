@@ -1,0 +1,17 @@
+.header {
+    font-family: "Verdana" sans-serif;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+.subheader {
+    color: goldenrod;
+}
+
+.link {
+    font-size: 18px;
+    font-family: "Impact","Arial Narrow Bold", sans-serif
+}
