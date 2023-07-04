@@ -1,17 +1,59 @@
 .header {
-    font-family: "Verdana" sans-serif;
-    text-align: center;
+    font-family:"Arial Narrow", sans-serif;
+    font-stretch: ultra-expanded;
+    font-weight: 700;
 }
 
-div {
+a {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Impact","Arial Narrow Bold", sans-serif;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; 
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: black;
+}
+
+a:active { 
+    text-decoration: none; 
+}
+
+h1 {
+    background-color: rgb(211, 161, 34);
+}
+
+.center {
     text-align: center;
 }
 
 .subheader {
     color: goldenrod;
+    text-decoration: underline;
+    padding: 18px;
 }
 
 .link {
-    font-size: 18px;
-    font-family: "Impact","Arial Narrow Bold", sans-serif
+    
+    border: 4px solid goldenrod; padding: 3px;
+    border-radius: 8px;
+    width: auto;
+    display: inline;
+    background-color: rgb(156, 156, 156);
 }
+
+.container {
+    border: 5px solid lightseagreen;
+    border-radius: 5px;
+    width: 320px;
+}
+
